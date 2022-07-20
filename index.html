@@ -1,81 +1,120 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="UTF-8">
-    <title>HTML_Hello_World</title>
-</head>
-<body>
- <h1>Резюме Тест Черновик</h1>
+        <!DOCTYPE html>
+        <head>
+            <meta charset="UTF-8">
+            <title>HTML_Hello_World</title>
+            <link href="styles.css" rel="stylesheet" />
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet"> -->
 
-<table cellspacing="13">
-<tr>
-<td> <img src="KotoHleb.jpg" alt="КотоХлебушек"></td>
-<td><h3><p><em>Я изучаю JS </em></p></h3>
- <div>Я делаю уроки по <strong> курсу</strong>  Владилена Минина</div></td>
-</tr>
-
-</table>
+        </head>
+    
+        <body>
 
 
-<hr size = "3" color="blue">
- <h2>Мои хобби</h2>
- <ul type="circle">
- <li>Рисование</li>
- <li>Бег</li>
- <li>Поделки из папье-маше</li>
- </ul>
+                    <div class="container">
+                    <h1>Резюме Тест Черновик</h1>
 
-<hr size = "3" noshade="3">
- <h2>Мои соц сети</h2>
-<ol>
-    <li> <a href="http://127.0.0.1:5500/SecondPage.html" target="_blank">Ссыль</a></li>
-</ol>
-
-<hr size = "3" noshade="3">
-<h2>Третья страница</h2>
-<ul>
-    <li type="square"><a href="http://127.0.0.1:5500/ThirdPage.html" target="_blank">ТретьяСтраница</a></li>
-
-<table border="5">
-
-    <th>
-    <td>Второй</td>
-    <td>Третий</td>
-    </th>
-
-    <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-    </tr>
-
-
-    <tr>
-        <td>КотоХлеб</td>
-        <td>Котобулка</td>
-        <td>Пёсобулка</td>
-    </tr>
-
-</table>
-
-<div>
-<hr size="3" color="blue">
-<h3>Связаться с котохлебушком:</h3>
-
-<form action="/">
-    <label for="name">Ваше имя</label>
-    <input type="text" id="name" placeholder="Ф.И.О.">
-<br>
-    <label for="email">Ваш email</label>
-    <input type="text" id="email" placeholder="email">
-<br>
-<label for="userComment"></label>
-<textarea name="" id="userComment" cols="30" rows="10" placeholder="Комментарий..."></textarea>
-
- <br>
-<input type="submit" value="Связаться">
-
-</form>
+                        <div class="info">
+                        <img src="photoAva.jpg" alt="My avatar"
+                            class="myavatar"/>
+<div class="info-text">
+<h3><p>Изучаю JS</p></h3>
+<p>Делаю уроки по курсу Владилена Минина</p>
 </div>
+</div>
+
+
+
+
+                                <div class="card bg-yellow">
+                                <h4 style="color:rgb(75, 63, 95);">Мои хобби</h4>
+                                <ol class="list">
+                                <li>Рисование</li>
+                                <li>Бег</li>
+                                <li>Поделки из папье-маше</li>
+                                </ol> 
+                                </div>
+        
+                        
+                                <div class="card bg-green">
+                        <h4>Мои соц сети</h4>
+                    <a href="http://127.0.0.1:5500/SecondPage.html" target="_blank">Ссыль</a>
+                    |
+                    <a href="https://t.me/LifeKoZ">Telegram</a>
+                            </div>
+
+
+                            <div class="card bg-red">
+                    <h2>Прохождение курса</h2>
+                    <ul>
+                        <li type="square"><a href="http://127.0.0.1:5500/ThirdPage.html" target="_blank">Подробнее...</a></li>
+
+                    <table class="curseTable">
+
+                        <tr>
+                        <td>Статус/Курсы</td>
+                        <td>Введение</td>
+                        <td>Полный курс</td>
+                        </tr>
+
+                        <tr>
+                            
+                            <td>Статус</td>
+                            <td>Пройдено</td>
+                            <td>В Процессе</td>
+                        </tr>
+
+
+                        <tr>
+                            <td>Процент</td>
+                            <td>100%</td>
+                            <td>10%</td>
+                        </tr>
+
+                    </table>
+                </div>
+                        
+                            <div class="contact">
+                            <h2>Связаться со мной:</h2>
+                            
+
+                            <form action="/">
+                                <div class="row">
+
+                                <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" placeholder="Ф.И.О.">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Ваш email</label>
+                                <input type="text" id="email" placeholder="email">
+                            </div>
+                            </div>
+
+                            <div class="form-group">
+                            <label for="userComment"></label>
+                            <textarea name="" id="userComment" cols="30" rows="10" placeholder="Комментарий..."></textarea>
+                            </div>
+                        </div>
+
+
+
+                        <input class="btn" type="submit" value="Связаться">
+
+                            
+                            </form>
+
+
+                            <div class="position">
+                                <div class="box"></div>
+                                </div>
+
+<div style="margin-bottom: 500px;"></style></div>
+
+</div>
+</div>
+
+
 
 </body>
 </html>
